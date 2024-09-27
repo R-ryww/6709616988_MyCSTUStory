@@ -1,0 +1,72 @@
+@font-face {
+    font-family: Garet-Book;
+    src: url(resource/Garet-Book.ttf)
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@100&display=swap');
+
+body {
+    background-image: url(resource/bg.png);
+    text-align: center;
+    color: aliceblue;
+}
+
+.textf1 {
+    font-family: Garet-Book;
+    padding: 0 0 0 0;
+}
+
+.textf2 {
+    font-family: Garet-Book;
+    text-align: left;
+    padding: 3% 0 0 28%;
+}
+
+.textf2 p {
+    padding: 0 0 20px 0;
+}
+
+.textf2 img { 
+    padding: 10% 0 0 10%;
+    width: 70%;
+
+}
+
+footer {
+    padding: 3%;
+}
+
+/* Navigation Styles */
+nav {
+    font-family: Garet-Book;
+    background-image: url(resource/bg3.png);
+    padding: 20px 0px;
+    text-align: left;
+    float: left;
+    width: 25%;
+    height: 100dvh;
+    position: fixed;
+    top: 0%;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: block;
+    margin: 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.1em;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #777777;
+}
