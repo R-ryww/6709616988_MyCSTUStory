@@ -14,7 +14,7 @@ body {
     color: rgb(228, 228, 228);
     font-family: Garet-Book;
     text-align: center;
-    padding: 0 0 0 13px;
+    padding-left: 20%;
 }
 
 .HeadText h1 {
@@ -31,7 +31,6 @@ body {
     padding-left: 23%;
     padding-bottom: 5px;
     line-height: 0;
-    list-style: none;
 }
 
 .HeadTextin ul li{
@@ -46,7 +45,6 @@ body {
     padding-left: 24%;
     margin: 0px 0px;
     line-height: 0;
-    list-style: none;
 }
 
 .InfoText ul li{
@@ -59,23 +57,20 @@ body {
 }
 
 .fa {
-    float: right;
+    float: center;
     padding: 20px;
     font-size: 30px;
     width: 50px;
     text-align: center;
-    text-decoration: none;
     margin: 5px 2px;
 }
 
 .fa-facebook {
-    margin-left: 90%;
     background: #3B5998;
     color: white;
 }
 
 .fa-instagram {
-    margin-left: 95%;
     background: #ff7bed;
     color: rgb(255, 255, 255);
 }
@@ -84,11 +79,10 @@ body {
 nav {
     font-family: Garet-Book;
     background-image: url(resource/bg3.png);
-    padding: 20px 0px;
     text-align: left;
     float: left;
-    width: 25%;
-    height: 100dvh;
+    width: 20%;
+    height: 100vh;
     position: fixed;
     top: 0%;
 }
@@ -101,7 +95,7 @@ nav ul {
 
 nav ul li {
     display: block;
-    margin: 25px;
+    margin: 30px;
 }
 
 nav ul li a {
@@ -117,4 +111,56 @@ nav ul li a:hover {
 
 footer {
     padding: 3%;
+}
+
+@media screen and (max-width: 500px)
+{
+    img {
+        width: auto;
+        height: 150px;
+    }
+    video {
+        width: auto;
+        height: 150px;
+    }
+    nav {
+        font-family: Garet-Book;
+        background-image: url(resource/bg3.png);
+        text-align: left;
+        float: left;
+        width: 22%;
+        height: 100vh;
+        position: fixed;
+        top: 0%;
+        overflow: auto;
+    }
+    nav ul li {
+        display: block;
+        margin: 30px 0 25px 10px;
+    }
+    .fa {
+        float: center;
+        padding: 20px;
+        font-size: 30px;
+        width: 22%;
+        text-align: center;
+        margin: 5px 2px;
+        bottom: 100%;
+    }
+    .HeadTextin {
+        color: aliceblue;
+        font-family: Garet-Book;
+        text-align: left;
+        padding-left: 23%;
+        padding-bottom: 5px;
+        line-height: 200%;
+    }
+    .InfoText {
+        color: aliceblue;
+        font-family: Garet-Book;
+        text-align: left;
+    }
+    .InfoText ul li{
+        line-height: 160%;
+    }
 }

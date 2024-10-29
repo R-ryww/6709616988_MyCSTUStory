@@ -13,7 +13,7 @@ body {
 
 .textf1 {
     font-family: Garet-Book;
-    padding: 0 0 0 0;
+    padding: 0 0 0 20%;
 }
 
 .textf2 {
@@ -40,11 +40,10 @@ footer {
 nav {
     font-family: Garet-Book;
     background-image: url(resource/bg3.png);
-    padding: 20px 0px;
     text-align: left;
     float: left;
-    width: 25%;
-    height: 100dvh;
+    width: 20%;
+    height: 100vh;
     position: fixed;
     top: 0%;
 }
@@ -57,7 +56,7 @@ nav ul {
 
 nav ul li {
     display: block;
-    margin: 25px;
+    margin: 30px;
 }
 
 nav ul li a {
@@ -69,4 +68,51 @@ nav ul li a {
 
 nav ul li a:hover {
     color: #777777;
+}
+
+.fa {
+    float: center;
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    margin: 5px 2px;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-instagram {
+    background: #ff7bed;
+    color: rgb(255, 255, 255);
+}
+
+@media screen and (max-width: 500px)
+{
+    nav {
+        font-family: Garet-Book;
+        background-image: url(resource/bg3.png);
+        text-align: left;
+        float: left;
+        width: 22%;
+        height: 100vh;
+        position: fixed;
+        top: 0%;
+        overflow: auto;
+    }
+    nav ul li {
+        display: block;
+        margin: 30px 0 25px 10px;
+    }
+    .fa {
+        float: center;
+        padding: 20px;
+        font-size: 30px;
+        width: 22%;
+        text-align: center;
+        margin: 5px 2px;
+        bottom: 100%;
+    }
 }
